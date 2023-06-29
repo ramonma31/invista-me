@@ -1,5 +1,5 @@
 from django.db import models
-import pendulum
+from datetime import datetime
 
 """ * Investimento
 * Valor
@@ -12,4 +12,4 @@ class investimento(models.Model):
     investimento = models.TextField(max_length=20)
     valor = models.FloatField()
     pago = models.BooleanField(default=False)
-    data = models.DateField(default=pendulum.now)
+    data = models.DateField(default=datetime.now)

@@ -148,6 +148,7 @@ dmypy.json
 
 # pytype static type analyzer
 .pytype/
+heroku_invistame/
 
 # Cython debug symbols
 cython_debug/
